@@ -1,6 +1,4 @@
-var v1 = function() {};
-
-v1.prototype = {
+var v1 = {
 	diff: 0,
 	round: 0,
 	baddies: 5,
@@ -22,9 +20,7 @@ v1.prototype = {
     
     v1: function () {
     	for(var p in this.players) { this.updatePlayer(p); }
-	    for(var e in this.enemies) { 
-	    	this.calcEnemyMissileXY(e);
-	    }
+	    for(var e in this.enemies) { this.calcEnemyMissileXY(e); }
 	
 		if(this.isEmpty(this.enemies)) {
 			this.baddies++;
@@ -572,4 +568,4 @@ v1.prototype = {
 	}
 };
 
-module.exports = new v1();
+module.exports = v1;

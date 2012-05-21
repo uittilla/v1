@@ -38,6 +38,7 @@ var Game = {
 	explosion: null,
 	level: 0,
 	fighter: new Image(),
+	explosion: new Image(),
 	sys: {
 /*
 		n1: {
@@ -82,7 +83,6 @@ var Game = {
             img.obj.src = img.img;
         }
     
-        this.explosion = new Image();
         this.explosion.src = "../images/explosion.png";
         this.fighter.src = "./images/fighter.png";
        
