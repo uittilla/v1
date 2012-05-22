@@ -1,3 +1,8 @@
+/**
+ * Author mibbotson (ibbo was ere)
+ * ibbo at mail dot com
+ */
+
 var v1 = {
 	diff: 0,
 	round: 0,
