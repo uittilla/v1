@@ -4,14 +4,14 @@
  */
 
 var v1 = {
-	diff: 0,
-	round: 0,
-	baddies: 5,
-	enemies: {},
-	players: {},
-	height: 2000,
-	width:  3000, 
-	KEY_NAME_THRUSTER:"up",
+    diff: 0,
+    round: 0,
+    baddies: 5,
+    enemies: {},
+    players: {},
+    height: 2000,
+    width:  3000, 
+    KEY_NAME_THRUSTER:"up",
     KEY_NAME_TELEPORT:"t",
     KEY_NAME_LEFT:"left",
     KEY_NAME_RIGHT:"right",
