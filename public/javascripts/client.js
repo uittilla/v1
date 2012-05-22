@@ -1,6 +1,8 @@
 
-
-
+/**
+ * Author mibbotson (ibbo was ere)
+ * ibbo at mail dot com
+ */
 
 if (!window.requestAnimationFrame) {
   window.requestAnimationFrame = (window.webkitRequestAnimationFrame ||
