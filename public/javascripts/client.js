@@ -1,7 +1,5 @@
-
 /**
  * Author mibbotson (ibbo was ere)
- * ibbo at mail dot com
  */
 
 if (!window.requestAnimationFrame) {
@@ -32,7 +30,7 @@ var context = canvas.getContext('2d');
 var Game = {
     players: {},
     enemies: {},
-    socket: io.connect('http://10.1.1.104:3000'),
+    socket: io.connect('http://127.0.0.1:3000'),
 	id: null,
 	stars:[],
 	suns: [],
