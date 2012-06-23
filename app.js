@@ -1,6 +1,5 @@
 /**
  * Author mibbotson (ibbo was ere)
- * ibbo at mail dot com
  */
 
 var express = require('express'),
